@@ -1,7 +1,7 @@
 {
   "name": "use-synced",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple React hook that provides you with a state and its setState function that is synced between all tabs of your application. With support for the debounce functionality and fully type-safe as it's written in TypeScript.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -9,9 +9,23 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sina Bayandorian <sina.sina.bayan@protonmail.com> (https://portfolio-sina-byn.vercel.app/)",
+  "homepage": "https://github.com/sina-byn/use-synced",
+  "repository": "github:sina-byn/use-synced",
+  "license": "MIT",
+  "keywords": [
+    "hook",
+    "hooks",
+    "react",
+    "react-dom",
+    "typescript",
+    "react-hooks",
+    "custom-hook",
+    "synced-tabs",
+    "synced-state",
+    "localstorage",
+    "sessionstorage"
+  ],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
@@ -26,5 +40,9 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/sina-byn/use-synced/issues",
+    "email": "sina.sina.bayan@protonmail.com"
   }
 }
